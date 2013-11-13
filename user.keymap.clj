@@ -4,8 +4,10 @@
               "alt-shift-w" [:editor.watch.unwatch]
               }
 
-     :editor.clj {"pmeta-k" [(:eval.custom "(str (type '__SELECTION__) '__SELECTION__)"
+     :editor.clj {"pmeta-i" [(:eval.custom "(str (type '__SELECTION*__ ) '__SELECTION*__ )"
                                            {:result-type :replace})]}
+     
+
 
      }
 
