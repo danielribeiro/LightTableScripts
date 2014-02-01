@@ -1,0 +1,2 @@
+command + t: undo  close tab
+command + d: delete line, even if empty
